@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.dvinfosys.basicdatatype.Oprations"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_number"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/characters"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btn_boolean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_Boolean"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_string"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_array"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_ranges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ranges"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output..."
+        android:padding="10dp"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Basic Datatype</string>
+    <string name="text_operations">Operations</string>
+    <string name="text_number">Numbers</string>
+    <string name="characters">Characters</string>
+    <string name="text_Boolean">Boolean</string>
+    <string name="text_string">String</string>
+    <string name="text_array">Array</string>
+    <string name="text_ranges">Ranges</string>
+</resources>
